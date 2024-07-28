@@ -1,6 +1,6 @@
 import mysql_connector
 
-CREATE database alx_book_store
+CREATE DATABASE IF NOT EXISTS alx_book_store
 DB = mysql_connector(
     database = "alx_book_store"
     user = ""
